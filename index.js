@@ -16,11 +16,6 @@ $('button.play-button').on('mousedown', function() {
     } else {
        document.querySelector("h1").innerHTML = "🚩 It's a Draw! 🚩";
     }
-
-    setTimeout(function() {
-    document.querySelector("h1").innerHTML = "Click the Button to Play Again!";
-    }, 10000);
-
 });
 
 
