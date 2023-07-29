@@ -42,16 +42,21 @@ footer {
 
 .play-button {
   display: block;
-  margin-top: 0.5em;
+  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
   font-size: 4rem;
   font-family: 'Lobster', cursive;
   padding: 0.3em;
   background-color: #4ECCA3;
-  color: #232931;
+  color: #393E46;
   border: 0px;
   border-radius: 0.5em;
   box-shadow: 5px 5px #232931;
 
+}
+
+.pressed {
+  background-color: #2b8b6b;
+  color: #232931;
 }
